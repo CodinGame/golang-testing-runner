@@ -2,4 +2,4 @@
 cd /project/target
 cp -r /project/answer/* .
 
-go test -run $@
+go test -run "$@"
