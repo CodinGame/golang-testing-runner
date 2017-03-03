@@ -1,5 +1,5 @@
-# go-builder
-This is a simple go runner for a CodinGame course. It will run the command "go test" in the root directory and the result will be sent back to CodinGame.
+# go-godep-runner
+This is a go runner for a CodinGame course. It will attempt to launch a `godep restore` in any directory it finds a Godeps folder in.
 
 ## Example
 
@@ -30,4 +30,4 @@ func TestUpperCase(t *testing.T) {
 
 In the lesson, the unit test can be called using:
 
-`@[Test unittest: uppercase]({"stubs":["upper/upper.go"], "command":"UpperCase"})`
+`@[Test unittest: uppercase]({"stubs":["upper/upper.go"], "command":"go test -run UpperCase"})`
