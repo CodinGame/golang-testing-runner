@@ -1,6 +1,15 @@
 # go-godep-runner
 This is a go runner for a CodinGame course. It will attempt to launch a `godep restore` in any directory it finds a Godeps folder in.
 
+# How to Use
+
+In order to use this runner in your project, edit the `codingame.yml` file and add the following lines to your project:
+
+    runner:
+      name: codingame/node-npm-runner
+      version: 1.0.0-1.8
+
+
 ## Example
 
 In this example, the student is asked to write a method `UpperCase()` (file `upper/upper.go`):
