@@ -8,10 +8,11 @@ This is a go runner for a CodinGame course. It will attempt to launch a `godep r
 
 In order to use this runner in your project, edit the `codingame.yml` file and add the following lines to your project:
 
+```yaml
     runner:
       name: codingame/golang-godep-runner
       version: 1.1.0-1.8
-
+```
 
 ## Example
 
