@@ -11,7 +11,7 @@ In order to use this runner in your project, edit the `codingame.yml` file and a
 ```yaml
     runner:
       name: codingame/golang-godep-runner
-      version: 1.1.0-1.8
+      version: 1.1.0-go-1.8
 ```
 
 ## Example
