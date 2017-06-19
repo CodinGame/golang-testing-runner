@@ -2,11 +2,11 @@
 
 # What it Does
 
-This is a go runner for a CodinGame course. It will attempt to launch a `godep restore` in any directory it finds a Godeps folder in.
+This is a go runner for a Tech.io course. It will attempt to launch a `godep restore` in any directory it finds a Godeps folder in.
 
 # How to Use
 
-In order to use this runner in your project, edit the `codingame.yml` file and add the following lines to your project:
+In order to use this runner in your project, edit the `techio.yml` file and add the following lines to your project:
 
 ```yaml
     runner: techio/golang-godep-runner:1.1.0-go-1.8
